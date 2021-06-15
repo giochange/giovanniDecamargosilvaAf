@@ -1,0 +1,17 @@
+tree("Root")
+	parallel
+		repeat mute tree("LookAround")
+		
+tree("LookAround")
+	sequence
+		tree("Attack")
+
+tree("Attack")
+	while SeePlayer
+		sequence
+			TargetPlayer
+			LookAtTarget
+			Fire
+
+
+	

@@ -1,0 +1,7 @@
+tree("Root")
+	sequence
+		PickRandomDestination
+		MoveToDestination
+		//Use a tecla Tab para dar espaçamento
+		
+		
